@@ -1,0 +1,224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+.nav-01-top {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.nav-01-top a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.nav-container {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-container a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.section-01 {
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid red; */
+}
+
+.header-wrapper {
+  position: relative;
+  background-image: url(./images/homepage-hero-desktop-3200x800-3-main\ -111111111.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  z-index: 999;
+  /* background-color: black; */
+  width: 50%;
+  padding-left: -50px;
+  /* transform: translateY(-50%); */
+}
+.header h4 {
+  margin-bottom: 5px;
+  /* border: 1px solid red; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+.header button {
+  border: 1px solid cyan;
+  background-color: cyan;
+  padding: 7px 35px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+/* 8*************************************************** */
+.section-02 {
+  width: 100%;
+  height: 80%;
+  border: 1px solid blue;
+  margin-top: 15%;
+}
+.section-02-top {
+  width: 65%;
+  height: 20%;
+  border: 1px solid black;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.section-02-top a {
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+.download {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.Certification {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.Cisco-Validated {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.training {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.Community {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.Careers {
+  width: 20%;
+  height: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.section-02-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.section-02-bottom-left {
+  margin-left: 10px;
+}
+.section-02-bottom-left img {
+  width: 100%;
+  height: 100%;
+}
+.section-02-bottom-right {
+  margin-left: 10px;
+  text-align: center;
+}
+.section-02-bottom-right button {
+  border-radius: 50px;
+  padding: 20px;
+  /* border: 1px solid blue; */
+  color: blue;
+}
+.section-02-bottom-right a {
+  text-decoration: none;
+}
+.section-03-bottom {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-top: 10px;
+}
+
+.section-03-bottom-left {
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.section-03-bottom-right img {
+  width: 100%;
+  height: 100%;
+}
+.section-03-bottom-left button {
+  border-radius: 50px;
+  padding: 20px;
+  /* border: 1px solid blue; */
+  color: blue;
+}
+.section-03-bottom-left a {
+  text-decoration: none;
+}
+
+.section-04 {
+  width: 100%;
+  height: 90%;
+  border: 1px solid black;
+}
+.section-04-top {
+  width: 50%;
+  height: 30%;
+  border: 1px solid blue;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.section-04-top a {
+  text-decoration: none;
+}
+
+.section-04-video img {
+  margin-top: 10px;
+  width: 50%;
+  height: 30%;
+  margin-left: 25%;
+}
